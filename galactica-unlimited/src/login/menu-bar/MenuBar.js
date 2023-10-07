@@ -1,6 +1,6 @@
 import './MenuBar.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import logo from './image.png';
+import logo from './logo-full_darkbg.png';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
