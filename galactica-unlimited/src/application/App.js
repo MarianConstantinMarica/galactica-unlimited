@@ -1,12 +1,10 @@
 import './App.css';
-import MenuBar from './../login/menu-bar/MenuBar.js';
+import LoginPage from './../login/LoginPage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <MenuBar/>
-      </header>
+        <LoginPage/>
     </div>
   );
 }

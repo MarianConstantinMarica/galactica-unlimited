@@ -14,8 +14,9 @@ function MenuBar() {
                 </Navbar.Brand>
                 <Nav className="ms-auto">
                     <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#latestoffers">Latest offers</Nav.Link>
-                    <Nav.Link href="#aboutus">About us</Nav.Link>
+                    <Nav.Link href="#login">Login</Nav.Link>
+                    <Nav.Link href="#plan">Plan</Nav.Link>
+                    <Nav.Link href="#contactus">Contact us</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>
