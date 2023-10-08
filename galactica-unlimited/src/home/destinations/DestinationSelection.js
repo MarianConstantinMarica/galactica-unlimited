@@ -9,9 +9,9 @@ function DestinationSelection() {
                 <h1 className="mb-1 ps-5 pb-1" style={{ letterSpacing: '1px', color: '#00ffe7', fontWeight: 'bold', fontSize: '50px' }}>Find your new starlit adventure with</h1>
                 <img className="ps-3 pb-1" src={logo} width="811" height="129" />
                 <p className="fw-normal mb-1 ps-5" style={{ letterSpacing: '1px', color: 'white' }}>Browse through our catalog of cosmic quality vacation offers and select your perfect gateway.</p>
-                <label>
-                    Departure
-                    <select>
+                <br/>
+                <p className="mb-1 ps-5" style={{ color: 'white' }}>Departure</p>
+                <select style={{marginLeft: 47}}>
                         <option value="earth">Earth</option>
                         <option value="meat">Moon</option>
                         <option value="mercury">Mercury</option>
@@ -21,9 +21,7 @@ function DestinationSelection() {
                         <option value="meat">Saturn</option>
                         <option value="meat">Uranus</option>
                         <option value="meat">Neptune</option>
-                    </select>
-                </label>
-                
+                </select>
             </div>
         </div>
     );
